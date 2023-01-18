@@ -1,0 +1,91 @@
+*{
+    font-family: 'Roboto', sem serifa;
+}
+
+.container{
+    width: 900px;
+    height: 415px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template: repeat(4, auto) / repeat(5, auto);
+    gap: 13px;
+}
+
+.destaque{
+    width: 543px;
+    height: 160px;
+    padding-top: 38px;
+    padding-left: 35px;
+    grid-area: 1 / 1 / 4 / 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacao-destaque{
+    padding-top: 15px;
+}
+
+.titulo-destaque{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.visualizacao-destaque{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    padding-top: 7px;
+}
+
+.informacao-texto{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding-top: 9px;
+    text-align: justify;
+}
+
+.propaganda{
+    grid-area: 1 / 4 / 1 / 5;
+    padding-top: 38px;    
+}
+
+.navegacao{
+    grid-area: 2 / 4 / 4 / 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.espacamento{
+    padding-left: 5px;
+}
+
+.primeiro-lista{
+    display: inline-flex;
+    margin-bottom: 12px;
+}
+
+.segundo-lista{
+    display: inline-flex;
+    margin-bottom: 12px;
+}
+
+.terceiro-lista{
+    display: inline-flex;
+}
+
+.titulo{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.informacoes{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 12.89px;
+    padding-top: 6px;
+}
